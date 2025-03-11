@@ -50,3 +50,26 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+# Solidity-specific
+*.solc
+*.bin
+*.abi
+*.json
+
+# Build artifacts
+artifacts/
+cache/
+coverage/
+coverage.json
+
+# Dependency directories
+node_modules/
+lib/
+
+# Environment files
+.env
+*.env
+
+# Test files
+test/*.js
+test/*.sol
